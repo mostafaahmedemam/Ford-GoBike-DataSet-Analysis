@@ -1,13 +1,21 @@
 # Ford-GoBike-Dataset-Analysis
-## Dataset Description
+## Dataset 
 Data set includes information about individual rides made in a bike-sharing system covering the greater San Francisco Bay area.
-## Data cleaning
-1- I drop some rows because have null values,then replace missing 
-values in gender attributes.
-2- remove any outliers : in Age attribute.
-3- check types of attributes.
-4- add some new attributes that make analysis and visualization easy, Visualization like: star_day,start_hour,member_age.
-## Conclusion
+## Summary with Findings
+<br />1- More than 60% of members are less than 40 year old.<br />
+<br />2- Almost all trips aren't in the morning .<br />
+<br />3- large number of trips started in tuesday and thursday.<br />
+<br />4- members who's age less than 30 share bike for all trip.<br />
+<br />5- customers spent more minutes intrip more than subscriber.<br />
+<br />6- Female spent more minutes in trip than male.<br />
+<br />7- number of customer who start trips are the same during the week, but subscriber are large than customer and have a big variation.<br />
+<br />8- all gender dont like to start trips in morning.<br />
+<br />9- median of ages in two clasess subscriber and customer almost same , and two classes have the same age stage members, but the max age in subscriber class larger than customer.<br />
+<br />10- weekend have greatest number of minutes per trip , so member prefered making trips in weekend.<br />
+<br />11- members whoes starting at 3 and 2 PM make large number of minutes per trip.<br />
+<br />12- Weekend effect ,sunday and saturday the greatest number of minutes per trip , and customer members have largest minutes than subscriber in weekend and all the week.<br />
+<br />13- customers who's age between 20 and 30 have greater avg duration per trip than subscriber.<br />
+## Key Insights for Presentation
 There are alot of relation that help us to understand a lot of things , and make us answer some question like which gender have largest number of trips and minuters per trip?
 Here i will show some conclusion and helpful relations with some comments:
 #### 1- Gender and Avg. duration in trip:
